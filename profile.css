@@ -1,0 +1,99 @@
+                                                                                                          body {    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('back.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #faaefc; /* Fallback background color */
+    color: #333; /* Default text color */
+}
+#Courses a {
+    color: black; /* Set course links to white */
+}
+.profile-pic {
+    inline-size: 200px;
+    block-size: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-block-end: 20px;
+}
+contact-links {
+    list-style-type: none; /* Remove default bullets */
+ 
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em; /* Adjusted size for navigation links */
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.8); /* Increased transparency for sections */
+    padding: 2em;
+    margin: 2em 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centered alignment for section content */
+}
+
+section h2 {
+    font-size: 2.5em; /* Increased size for section headings */
+}
+
+section h3 {
+    font-size: 1.8em; /* Increased size for sub-headings */
+}
+
+section p {
+    font-size: 1.2em; /* Increased size for paragraphs */
+    line-height: 1.6; /* Improved readability with increased line height */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    inline-size: 100%;
+    bottom: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 2em; /* Adjusted size for footer icons */
+    margin: 0 10px; /* Added spacing between icons */
+}
+
+footer a:hover {
+    color: #ddd;
+}
